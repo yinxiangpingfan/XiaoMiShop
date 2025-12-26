@@ -1,0 +1,21 @@
+/* 顶部广告 */
+.header{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 面试常见的css问题，内容居中问题
+一个大盒子，一个小盒子，小盒子如何在大盒子中间
+1,弹性盒子
+2,定位
+3，表格
+ */
+
+.header img{
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
