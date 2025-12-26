@@ -1,5 +1,5 @@
 /* 顶部广告 start*/
-.header{
+.header {
     width: 100%;
     height: 120px;
     overflow: hidden;
@@ -13,16 +13,17 @@
 3，表格
  */
 
-.header img{
+.header img {
     height: 120px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
+
 /* 顶部广告 end */
 
 /* 黑色导航 start */
-.black-nav{
+.black-nav {
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -30,35 +31,120 @@
     font-size: 12px;
 }
 
-.wrap{
+.wrap {
     width: 1226px;
     margin: 0 auto;
     position: relative;
 }
 
-.black-nav .wrap .black-nav-left{
+.black-nav .wrap .black-nav-left {
     position: absolute;
     left: 0;
 }
-.black-nav .wrap .black-nav-right{
+
+.black-nav .wrap .black-nav-right {
     position: absolute;
     right: 0;
 }
 
-.black-nav .wrap .black-nav-left li{
+.black-nav .wrap .black-nav-left li {
+    position: relative;
     float: left;
 }
 
-.black-nav .wrap .black-nav-right li{
+.black-nav .wrap .black-nav-right li {
     float: left;
 }
 
-.black-nav .wrap li span{
+.black-nav .wrap li span {
     color: #424242;
     margin: 0 3.6px;
 }
 
-.black-nav a{
+.black-nav a {
     color: #b0b0b0;
 }
+
+.download {
+    width: 124px;
+    height: 0px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px #aaa;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -62px;
+    overflow: hidden;
+}
+
+.download img {
+    width: 90px;
+    margin: 18px auto 0;
+}
+
+.download p {
+    color: #333;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.black-nav-left li:hover>.download {
+    height: 148px;
+}
+
+.stri {
+    width: 0;
+    height: 0;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -12px;
+    display: none;
+}
+
+.black-nav-left li:hover>.stri {
+    display: block;
+}
+
+.cart {
+    width: 120px;
+    height: 40px;
+    color: #424242;
+    margin-left: 25px;
+    position: relative;
+}
+
+.cart:hover {
+    background-color: #fff;
+}
+
+.cart:hover>a {
+    color: #ff6700;
+}
+
+.cart i {
+    font-style: normal;
+    margin-right: 8px;
+}
+
+.cart-list {
+    width: 316px;
+    height: 0px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 0;
+    top: 40px;
+    color: #424242;
+    overflow: hidden;
+    line-height: 100px;
+}
+
+.cart:hover>.cart-list {
+    height: 100px;
+}
+
 /* 黑色导航 end */
