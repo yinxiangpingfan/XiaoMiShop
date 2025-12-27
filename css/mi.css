@@ -506,7 +506,7 @@
     margin-bottom: 18px;
 }
 
-.phone-box-right .item .item-title {
+.item-title {
     width: 214px;
     height: 21px;
     line-height: 21px;
@@ -514,7 +514,7 @@
     margin: 0 auto;
 }
 
-.phone-box-right .item .item-info {
+.item-info {
     width: 214px;
     height: 18px;
     line-height: 18px;
@@ -523,7 +523,7 @@
     margin: 0 auto 10px;
 }
 
-.phone-box-right .item .item-price {
+.item-price {
     font-size: 14px;
     color: #ff6700;
 }
@@ -535,5 +535,46 @@
 }
 
 /* 手机模块结束 */
+/* 家电模块开始 */
+.elc{
+    width: 100%;
+}
+.elc-box{
+    width: 100%;
+    height: 614px;
+}
+.elc-item{
+    margin-left: 0px;
+    padding: 0;
+}
 
+.elc-box del{
+    color: #b0b0b0;
+    margin-left: 5px;
+}
+
+.item-last{
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    padding: 0;
+    float: left;
+}
+
+.item-last div{
+    width: 234px;
+    background-color: #fff;
+    height: 143px;
+    transition: all 0.2s linear;
+}
+
+.item-last div:last-child{
+    margin-top: 14px;
+}
+
+.item-last div:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+/* 家电模块结束 */
 /* 内容结束 */
