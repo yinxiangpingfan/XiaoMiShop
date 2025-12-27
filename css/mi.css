@@ -150,7 +150,7 @@
 /* 黑色导航 end */
 
 /* 白色导航 start */
-.white-nav{
+.white-nav {
     background-color: white;
     height: 100px;
     width: 100%;
@@ -162,7 +162,7 @@
     margin: 0 auto;
 }
 
-.logo{
+.logo {
     width: 55px;
     height: 55px;
     background-color: #ff6700;
@@ -173,61 +173,61 @@
     border-radius: 10px;
 }
 
-.logo>img{
+.logo>img {
     width: 100%;
-    height: 100%;   
+    height: 100%;
     position: absolute;
     top: 0;
     transition: all 0.2s;
 }
 
-.mi-home{
+.mi-home {
     left: -55px;
 }
 
-.mi-logo{
+.mi-logo {
     left: 0;
 }
 
-.logo:hover>.mi-home{
+.logo:hover>.mi-home {
     left: 0px;
 }
 
-.logo:hover>.mi-logo{
+.logo:hover>.mi-logo {
     left: 55px;
 }
 
-.nav-bar{
+.nav-bar {
     width: 875px;
     height: 100px;
     line-height: 100px;
     float: left;
 }
 
-.search{
+.search {
     width: 296px;
     height: 100px;
     float: right;
 }
 
-.nav-bar li{
+.nav-bar li {
     float: left;
 }
 
-.nav-bar li a{
+.nav-bar li a {
     color: #333;
     padding: 0 10px;
 }
 
-.nav-bar li a:hover{
+.nav-bar li a:hover {
     color: #ff6700
 }
 
-.nav-bar ul li img{
+.nav-bar ul li img {
     margin-top: 22.5px;
 }
 
-.search input{
+.search input {
     width: 244px;
     height: 50px;
     float: left;
@@ -239,7 +239,7 @@
     outline: none;
 }
 
-.search button{
+.search button {
     width: 52px;
     height: 50px;
     float: right;
@@ -247,12 +247,12 @@
     border: 1px solid #e0e0e0;
 }
 
-.search button:hover{
+.search button:hover {
     background-color: #ff6700;
     color: white;
 }
 
-.nav-bar-list{
+.nav-bar-list {
     width: 100%;
     height: 229px;
     background-color: white;
@@ -264,43 +264,43 @@
     display: none;
 }
 
-.nav-bar li:hover>.nav-bar-list{
+.nav-bar li:hover>.nav-bar-list {
     display: block;
 }
 
 
-.nav-bar-list  li{
-   line-height: normal;
-   border-right: 1px solid #eee;
+.nav-bar-list li {
+    line-height: normal;
+    border-right: 1px solid #eee;
 }
 
-.nav-bar-list .name{
+.nav-bar-list .name {
     font-size: 12px;
     color: #333;
 }
 
-.nav-bar-list .price{
+.nav-bar-list .price {
     font-size: 12px;
     color: #ff6700;
 }
 
 /* banner start */
-.banner{
+.banner {
     width: 100%;
     height: 460px;
 }
 
-.banner>.wrap{
+.banner>.wrap {
     width: 1226px;
     margin: 0 auto;
     position: relative;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-.banner .slider{
+.banner .slider {
     width: 234px;
     height: 420px;
     padding: 20px 0;
@@ -310,7 +310,7 @@
     top: 0;
 }
 
-.banner>.wrap>.slider>ul>li{
+.banner>.wrap>.slider>ul>li {
     height: 42px;
     line-height: 42px;
     text-align: left;
@@ -318,25 +318,25 @@
     font-size: 14px;
 }
 
-.banner>.wrap>.slider>ul>li>a{
+.banner>.wrap>.slider>ul>li>a {
     color: #fff;
 }
 
-.banner>.wrap>.slider>ul>li:hover{
+.banner>.wrap>.slider>ul>li:hover {
     color: #fff;
     background-color: #ff6700;
 }
 
-.banner>.wrap>.slider>ul>li>a>i{
+.banner>.wrap>.slider>ul>li>a>i {
     float: right;
     padding-right: 20px;
 }
 
-.slider>ul>li:hover>.slider-list{
+.slider>ul>li:hover>.slider-list {
     display: block;
 }
 
-.slider-list{
+.slider-list {
     height: 460px;
     width: 992px;
     background-color: #fff;
@@ -350,11 +350,11 @@
     display: none;
 }
 
-.slider-list ul{
+.slider-list ul {
     width: 100%;
 }
 
-.slider-list li{
+.slider-list li {
     width: 250px;
     height: 76px;
     float: left;
@@ -363,12 +363,12 @@
     line-height: 76px;
 }
 
-.slider-list li img{
+.slider-list li img {
     width: 40px;
     margin-right: 10px;
 }
 
-.slider-list span{
+.slider-list span {
     color: #333;
     font-size: 14px;
     position: relative;
@@ -376,27 +376,26 @@
 }
 
 
-.slider-list li:hover span{
+.slider-list li:hover span {
     color: #ff6700;
 }
+
 /* banner end */
 
 /* 广告开始 */
-
-
-.ad{
+.ad {
     width: 100%;
     height: 170px;
     padding: 14px 0;
     background-color: #fff;
 }
 
-.ad .wrap{
+.ad .wrap {
     width: 1226px;
     margin: 0 auto;
 }
 
-.ad .ad-slide{
+.ad .ad-slide {
     background-color: #5f5750;
     width: 234px;
     height: 170px;
@@ -406,7 +405,7 @@
     float: left;
 }
 
-.ad .ad-slide li{
+.ad .ad-slide li {
     float: left;
     height: 82px;
     width: 76px;
@@ -415,27 +414,67 @@
     opacity: 0.7;
 }
 
-.ad .ad-slide i{
+.ad .ad-slide i {
     font-size: 24px;
     margin-bottom: 4px;
     display: block;
     color: #fff;
 }
 
-.ad-slide p{
+.ad-slide p {
     color: #fff;
 }
 
-.ad-slide li:hover{
+.ad-slide li:hover {
     opacity: 1;
 }
 
-.ad-img{
+.ad-img {
     width: 316px;
     margin-left: 14.6px;
     height: 170px;
     float: left;
 }
-.ad-img img{
+
+.ad-img img {
     height: 100%;
 }
+
+/* 广告结束 */
+
+/* 内容开始 */
+.content .wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 4px 0 12px;
+}
+
+/* 手机模块开始 */
+.title{
+    text-align: left;
+    color: #333;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.phone-box{
+    height: 614px;
+    width: 100%;
+}
+
+.phone-box-left{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+/* 手机模块结束 */
+
+/* 内容结束 */
