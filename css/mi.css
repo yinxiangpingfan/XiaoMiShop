@@ -448,7 +448,7 @@
     margin: 0 auto;
 }
 
-.content{
+.content {
     width: 100%;
     background-color: #f1f1f1;
     overflow: hidden;
@@ -456,7 +456,7 @@
 }
 
 /* 手机模块开始 */
-.title{
+.title {
     text-align: left;
     color: #333;
     font-size: 22px;
@@ -464,15 +464,74 @@
     line-height: 58px;
 }
 
-.phone-box{
+.phone {
+    width: 100%;
+}
+
+.phone-box {
     height: 614px;
     width: 100%;
 }
 
-.phone-box-left{
+.phone-box-left {
     width: 234px;
     height: 614px;
     float: left;
+}
+
+.phone-box-right {
+    width: 992px;
+    height: 614px;
+    float: left;
+}
+
+.item {
+    margin: 0 0 14px 14px;
+    width: 234px;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px 0;
+    box-sizing: border-box;
+    float: left;
+    transition: all 0.2s linear;
+}
+
+.item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.phone-box-right .item .item-img {
+    width: 160px;
+    margin-bottom: 18px;
+}
+
+.phone-box-right .item .item-title {
+    width: 214px;
+    height: 21px;
+    line-height: 21px;
+    color: #333;
+    margin: 0 auto;
+}
+
+.phone-box-right .item .item-info {
+    width: 214px;
+    height: 18px;
+    line-height: 18px;
+    color: #b0b0b0;
+    font-size: 12px;
+    margin: 0 auto 10px;
+}
+
+.phone-box-right .item .item-price {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.phone-buttom-ad {
+    width: 100%;
+    height: 120px;
+    margin-top: 22px;
 }
 
 /* 手机模块结束 */
