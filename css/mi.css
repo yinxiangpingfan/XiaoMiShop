@@ -650,3 +650,118 @@
 }
 /* 视频模块结束 */
 /* 内容结束 */
+
+/* 页脚模块开始 */
+.footer .wrap{
+    width: 1226px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.footer .wrap .footer-service{
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.footer-service li{
+    float: left;
+    width: 20%;
+    border-right: 1px solid #b0b0b0;
+    box-sizing: border-box;
+}
+
+.footer-service li:last-child{
+    border-right: none;
+}
+
+.footer-service li i{
+    font-size: 24px;
+    margin-right: 6px;
+}
+
+.footer-service li a{
+    color: #616161;
+}
+
+.footer-service li a:hover{
+    color: #ff6700;
+}
+.footer-links{
+    height: 172px;
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-links ul{
+    width: 160px;
+    text-align: left;
+    color: #424242;
+    font-size: 14px;
+    line-height: 1.25;
+}
+.footer-links a{
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer-links li{
+    margin-top: 10px;
+}
+.footer-links ul:last-child{
+    border-right: 1px solid #424242;
+}
+
+.footer-aside{
+    width: 250px;
+    height: 111px;
+    border-left: 1px solid #e0e0e0;
+    color: #616161;
+}
+.footer-aside .tel{
+    font-size: 22px;
+    line-height: 22px;
+    color: #ff6700;
+    margin-bottom: 5px;
+}
+
+.footer-aside .time{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.footer-aside .kefu{
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ff6700;
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: #ff6700;
+    font-size: 12px;
+    transition: all 0.4s linear;
+}
+
+.kefu:hover{
+    background-color: #f25807;
+    border-color: #f25807;
+    color: #fff;
+}
+
+.follow{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.follow img{
+    width: 24px;
+    margin-left: 6px;
+    position: relative;
+    top:7px
+}
+/* 页脚模块结束 */
